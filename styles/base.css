@@ -1,0 +1,29 @@
+@import "tokens.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fuente-base);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: var(--color-fondo);
+  border-radius: var(--radio-md);
+  gap: 12px;
+  flex-wrap: wrap;
+}
