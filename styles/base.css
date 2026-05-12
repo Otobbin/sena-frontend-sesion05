@@ -39,16 +39,28 @@ body {
   display: flex;
   gap: 20px;
 }
-.card-usuario {
+.perfil-usuario {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 15px;
   padding: 16px;
+  background-color: var(--color-fondo);
+  box-shadow: var(--sombra-md)
+}
+.card-user {
+  display: flex;
+  flex-direction: column;
 }
 .avatar-perfil {
   width: 48px; height: 48px;
   border-radius: 50%;
-  flex-shrink: 0;  
+  flex-shrink: 0;
+  border: 2px solid var(--color-borde); 
+}
+.user-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 .user-desc {
   display: flex;
